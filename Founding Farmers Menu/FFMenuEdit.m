@@ -112,7 +112,7 @@
 {
 
     
-    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Caution!!" message:@"Saving Will Overite this Menu Item" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Yes I am Sure", nil];
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Save This Menu Item?" message:@"" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Save", nil];
     [alert show];
     
     /*
@@ -138,7 +138,7 @@
 {
     NSString *title = [alertView buttonTitleAtIndex:buttonIndex];
     
-    if ([title isEqualToString:@"Yes I am Sure"]) {
+    if ([title isEqualToString:@"Save"]) {
     
         NSLog(@"This man is SURE!");
         self.data.name = self.nameTextField.text;

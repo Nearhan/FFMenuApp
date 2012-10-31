@@ -15,6 +15,7 @@
 		36776B5C16231EAF004A4737 /* Infoscreen-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36776B5B16231EAE004A4737 /* Infoscreen-1.jpg */; };
 		36776B5E16237C99004A4737 /* Infoscreenfonts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36776B5D16237C99004A4737 /* Infoscreenfonts.jpg */; };
 		3677B464161FE0F400139AE6 /* FFFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3677B463161FE0F400139AE6 /* FFFileManager.m */; };
+		36D107EE1640B5E800754678 /* iPhoneIcon_Big.png in Resources */ = {isa = PBXBuildFile; fileRef = 36D107ED1640B5E800754678 /* iPhoneIcon_Big.png */; };
 		36F388D31617873600CB7357 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F388D21617873600CB7357 /* UIKit.framework */; };
 		36F388D51617873600CB7357 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F388D41617873600CB7357 /* Foundation.framework */; };
 		36F388D71617873600CB7357 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36F388D61617873600CB7357 /* CoreGraphics.framework */; };
@@ -41,6 +42,7 @@
 		36776B5D16237C99004A4737 /* Infoscreenfonts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Infoscreenfonts.jpg; sourceTree = "<group>"; };
 		3677B462161FE0F400139AE6 /* FFFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFileManager.h; sourceTree = "<group>"; };
 		3677B463161FE0F400139AE6 /* FFFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFileManager.m; sourceTree = "<group>"; };
+		36D107ED1640B5E800754678 /* iPhoneIcon_Big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhoneIcon_Big.png; path = ../iPhoneIcon_Big.png; sourceTree = "<group>"; };
 		36F388CE1617873600CB7357 /* Founding Farmers Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Founding Farmers Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F388D21617873600CB7357 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		36F388D41617873600CB7357 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -129,6 +131,7 @@
 		36F388D91617873600CB7357 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				36D107ED1640B5E800754678 /* iPhoneIcon_Big.png */,
 				36776B5D16237C99004A4737 /* Infoscreenfonts.jpg */,
 				36776B5B16231EAE004A4737 /* Infoscreen-1.jpg */,
 				36776B4F16229402004A4737 /* Karla-Bold.ttf */,
@@ -148,9 +151,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		36F388CD1617873600CB7357 /* Founding Farmers Menu */ = {
+		36F388CD1617873600CB7357 /* Beer Menu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36F388E61617873600CB7357 /* Build configuration list for PBXNativeTarget "Founding Farmers Menu" */;
+			buildConfigurationList = 36F388E61617873600CB7357 /* Build configuration list for PBXNativeTarget "Beer Menu" */;
 			buildPhases = (
 				36F388CA1617873600CB7357 /* Sources */,
 				36F388CB1617873600CB7357 /* Frameworks */,
@@ -160,7 +163,7 @@
 			);
 			dependencies = (
 			);
-			name = "Founding Farmers Menu";
+			name = "Beer Menu";
 			productName = "Founding Farmers Menu";
 			productReference = 36F388CE1617873600CB7357 /* Founding Farmers Menu.app */;
 			productType = "com.apple.product-type.application";
@@ -187,7 +190,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				36F388CD1617873600CB7357 /* Founding Farmers Menu */,
+				36F388CD1617873600CB7357 /* Beer Menu */,
 			);
 		};
 /* End PBXProject section */
@@ -208,6 +211,7 @@
 				36776B5616229402004A4737 /* Karla-Regular.ttf in Resources */,
 				36776B5C16231EAF004A4737 /* Infoscreen-1.jpg in Resources */,
 				36776B5E16237C99004A4737 /* Infoscreenfonts.jpg in Resources */,
+				36D107EE1640B5E800754678 /* iPhoneIcon_Big.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +303,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Founding Farmers Menu/Founding Farmers Menu-Prefix.pch";
 				INFOPLIST_FILE = "Founding Farmers Menu/Founding Farmers Menu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -310,6 +315,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Founding Farmers Menu/Founding Farmers Menu-Prefix.pch";
 				INFOPLIST_FILE = "Founding Farmers Menu/Founding Farmers Menu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -327,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36F388E61617873600CB7357 /* Build configuration list for PBXNativeTarget "Founding Farmers Menu" */ = {
+		36F388E61617873600CB7357 /* Build configuration list for PBXNativeTarget "Beer Menu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				36F388E71617873600CB7357 /* Debug */,

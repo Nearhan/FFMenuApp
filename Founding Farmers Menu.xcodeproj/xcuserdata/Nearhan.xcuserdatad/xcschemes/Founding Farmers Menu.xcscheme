@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "36F388CD1617873600CB7357"
                BuildableName = "Founding Farmers Menu.app"
-               BlueprintName = "Founding Farmers Menu"
+               BlueprintName = "Beer Menu"
                ReferencedContainer = "container:Founding Farmers Menu.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,7 +34,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36F388CD1617873600CB7357"
             BuildableName = "Founding Farmers Menu.app"
-            BlueprintName = "Founding Farmers Menu"
+            BlueprintName = "Beer Menu"
             ReferencedContainer = "container:Founding Farmers Menu.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -53,7 +53,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36F388CD1617873600CB7357"
             BuildableName = "Founding Farmers Menu.app"
-            BlueprintName = "Founding Farmers Menu"
+            BlueprintName = "Beer Menu"
             ReferencedContainer = "container:Founding Farmers Menu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -71,7 +71,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "36F388CD1617873600CB7357"
             BuildableName = "Founding Farmers Menu.app"
-            BlueprintName = "Founding Farmers Menu"
+            BlueprintName = "Beer Menu"
             ReferencedContainer = "container:Founding Farmers Menu.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
