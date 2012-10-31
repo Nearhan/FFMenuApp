@@ -41,6 +41,7 @@
 						<int key="NSvFlags">274</int>
 						<string key="NSFrameSize">{768, 1004}</string>
 						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="869542602"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
@@ -53,8 +54,9 @@
 					<object class="IBUITableView" id="535414493">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{20, 290}, {363, 200}}</string>
+						<string key="NSFrame">{{20, 299}, {363, 200}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="512797863"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<object class="NSColor" key="IBUIBackgroundColor" id="934466443">
@@ -74,8 +76,9 @@
 					<object class="IBUITableView" id="357899118">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{20, 530}, {363, 200}}</string>
+						<string key="NSFrame">{{20, 542}, {363, 200}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="731837989"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="934466443"/>
@@ -92,8 +95,9 @@
 					<object class="IBUITableView" id="635073026">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{20, 778}, {363, 200}}</string>
+						<string key="NSFrame">{{20, 794}, {363, 200}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="245490658"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="934466443"/>
@@ -110,8 +114,9 @@
 					<object class="IBUITableView" id="869542602">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{391, 45}, {363, 200}}</string>
+						<string key="NSFrame">{{391, 49}, {363, 200}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="535414493"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="934466443"/>
@@ -128,8 +133,9 @@
 					<object class="IBUITableView" id="512797863">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{391, 290}, {363, 200}}</string>
+						<string key="NSFrame">{{391, 299}, {363, 200}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="357899118"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="934466443"/>
@@ -146,8 +152,9 @@
 					<object class="IBUITableView" id="731837989">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{391, 530}, {363, 200}}</string>
+						<string key="NSFrame">{{391, 542}, {363, 200}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="635073026"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="934466443"/>
@@ -164,8 +171,10 @@
 					<object class="IBUITableView" id="245490658">
 						<reference key="NSNextResponder" ref="766721923"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrame">{{391, 778}, {363, 200}}</string>
+						<string key="NSFrame">{{391, 794}, {363, 200}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
+						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="934466443"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
@@ -181,6 +190,7 @@
 				</array>
 				<string key="NSFrame">{{0, 20}, {768, 1004}}</string>
 				<reference key="NSSuperview"/>
+				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="467051618"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
@@ -399,13 +409,13 @@
 						<reference key="object" ref="766721923"/>
 						<array class="NSMutableArray" key="children">
 							<reference ref="467051618"/>
-							<reference ref="512797863"/>
 							<reference ref="535414493"/>
-							<reference ref="731837989"/>
+							<reference ref="512797863"/>
 							<reference ref="357899118"/>
-							<reference ref="245490658"/>
 							<reference ref="635073026"/>
 							<reference ref="869542602"/>
+							<reference ref="731837989"/>
+							<reference ref="245490658"/>
 						</array>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -473,7 +483,57 @@
 			<nil key="sourceID"/>
 			<int key="maxID">159</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">FFMenuView</string>
+					<string key="superclassName">UIViewController</string>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="aleTableView">UITableView</string>
+						<string key="globalTableView">UITableView</string>
+						<string key="ipaTableView">UITableView</string>
+						<string key="lagerTableView">UITableView</string>
+						<string key="localTableView">UITableView</string>
+						<string key="seasonalTableView">UITableView</string>
+						<string key="whiteTableView">UITableView</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="aleTableView">
+							<string key="name">aleTableView</string>
+							<string key="candidateClassName">UITableView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="globalTableView">
+							<string key="name">globalTableView</string>
+							<string key="candidateClassName">UITableView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="ipaTableView">
+							<string key="name">ipaTableView</string>
+							<string key="candidateClassName">UITableView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="lagerTableView">
+							<string key="name">lagerTableView</string>
+							<string key="candidateClassName">UITableView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="localTableView">
+							<string key="name">localTableView</string>
+							<string key="candidateClassName">UITableView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="seasonalTableView">
+							<string key="name">seasonalTableView</string>
+							<string key="candidateClassName">UITableView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="whiteTableView">
+							<string key="name">whiteTableView</string>
+							<string key="candidateClassName">UITableView</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/FFMenuView.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBIPadFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencyDefaults">

@@ -43,7 +43,7 @@
 		3677B462161FE0F400139AE6 /* FFFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFileManager.h; sourceTree = "<group>"; };
 		3677B463161FE0F400139AE6 /* FFFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFileManager.m; sourceTree = "<group>"; };
 		36D107ED1640B5E800754678 /* iPhoneIcon_Big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPhoneIcon_Big.png; path = ../iPhoneIcon_Big.png; sourceTree = "<group>"; };
-		36F388CE1617873600CB7357 /* Founding Farmers Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Founding Farmers Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F388CE1617873600CB7357 /* Beer Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beer Menu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36F388D21617873600CB7357 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		36F388D41617873600CB7357 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		36F388D61617873600CB7357 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -91,7 +91,7 @@
 		36F388CF1617873600CB7357 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				36F388CE1617873600CB7357 /* Founding Farmers Menu.app */,
+				36F388CE1617873600CB7357 /* Beer Menu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,7 +165,7 @@
 			);
 			name = "Beer Menu";
 			productName = "Founding Farmers Menu";
-			productReference = 36F388CE1617873600CB7357 /* Founding Farmers Menu.app */;
+			productReference = 36F388CE1617873600CB7357 /* Beer Menu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
